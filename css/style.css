@@ -75,7 +75,7 @@ body, input {
     /*  background-size: 50px 100px;*/
 
     display: -webkit-flex;
-    background-color: rgb(50, 54, 57);
+    background-color: rgb(148, 152, 155);
     -moz-user-select: none;
     user-select: none;
 
@@ -147,43 +147,6 @@ footer {
 
 .hide {
     display: none;
-}
-
-.coin {
-    opacity: .1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background: #0af;
-    width: 400px;
-    height: 400px;
-    margin-left: -200px;
-    margin-top: -200px;
-    transform-origin: 5.5% 49%;
-    border-radius: 48%;
-    animation: drift 3000ms infinite linear;
-}
-
-.coin.-one {
-    opacity: 1;
-    transform-origin: 51% 50%;
-    background: #314c5f;
-}
-
-.coin.-two {
-    animation: drift 5000ms infinite linear;
-    animation-direction: reverse;
-    opacity: 1;
-    background: #314c5f;
-    transform-origin: 50% 49%;
-}
-
-.coin.-three {
-    opacity: 1;
-    background: #314c5f;
-    animation: drift 2500ms infinite linear;
-    animation-direction: reverse;
-    transform-origin: 50% 49%;
 }
 
 .sign, #dob-template, #age-template {
